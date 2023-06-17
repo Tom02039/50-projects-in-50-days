@@ -2,4 +2,4 @@
 
 # Projects
 
-- [] Day 1 - Expanding Cards
+- [x] Day 1 - Expanding Cards
