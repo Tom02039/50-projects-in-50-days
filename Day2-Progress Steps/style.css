@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+:root {
+  --line-border-fill: #3498db;
+  --line-border-empty: #e0e0e0;
+}
+
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Muli", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f7fb;
+}
+
+.progress-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.steps {
+  position: relative;
+  display: flex;
+  gap: 48px;
+}
+
+.step {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: var(--line-border-empty) solid 2px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #999;
+  font-size: 10px;
+  transition: all 0.3s;
+}
+
+.step.active {
+  border: var(--line-border-fill) solid 2px;
+}
+
+.step-bar {
+  position: absolute;
+  width: 200px;
+  height: 3px;
+  top: 8px;
+  left: 20px;
+  z-index: -1;
+  background: var(--line-border-empty);
+
+  animation-name: 2s 1 moveToRight;
+}
+
+.step-bar-fill {
+  position: absolute;
+  width: 0px;
+  height: 3px;
+  top: 8px;
+  left: 20px;
+  background-color: var(--line-border-fill);
+  z-index: -1;
+  transition: width 0.3s;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.btn {
+  width: 60px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--line-border-empty);
+  color: white;
+  font-size: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btn.active {
+  background-color: var(--line-border-fill);
+}
