@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #333;
+  color: #333;
+  overflow: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  transform-origin: top left;
+  transition: all ease-out 0.8s;
+}
+
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+
+.article {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fafafa;
+  padding: 96px 140px;
+}
+
+.article-title {
+  color: #000;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.2;
+  margin-bottom: 2px;
+}
+
+.article-author {
+  color: #555;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.article-image {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.article-text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.article-subtitle {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.nav-btn-container {
+  width: 16%;
+  height: 16%;
+  border: none;
+  border-radius: 50%;
+  position: fixed;
+  top: -8%;
+  left: -8%;
+  background-color: #fd7c72;
+  transition: all ease-out 0.8s;
+}
+
+.nav-btn-container.show-nav {
+  transform: rotate(-70deg);
+}
+
+.nav-btn {
+  position: absolute;
+  border: none;
+  background: transparent;
+  transform: top left;
+  cursor: pointer;
+}
+
+.nav-btn-open {
+  bottom: 20%;
+  right: 20%;
+}
+
+.nav-btn-close {
+  bottom: 20%;
+  left: 20%;
+}
+
+.nav-btn-icon {
+  color: #fff;
+  font-size: 36px;
+}
+
+.nav {
+  position: fixed;
+  bottom: 80px;
+  left: 40px;
+}
+
+.nav-lists {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  gap: 36px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  transform: translateX(-100%);
+  transition: all ease-in 0.5s;
+  cursor: pointer;
+}
+
+.nav-list:nth-child(2) {
+  margin-left: 12px;
+  transform: translateX(-150%);
+}
+
+.nav-list:nth-child(3) {
+  margin-left: 24px;
+  transform: translateX(-200%);
+}
+
+.nav-list.show-nav,
+.nav-list:nth-child(2).show-nav,
+.nav-list:nth-child(3).show-nav {
+  transform: translateX(0);
+}
+
+.nav-list-icon {
+  font-size: 24px;
+}
