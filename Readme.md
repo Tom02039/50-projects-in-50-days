@@ -7,4 +7,5 @@
 - [x] Day 3 - Rotating Navigation Animation
 - [x] Day 4 - Hidden Search Widget
 - [x] Day 5 - Blurry Loading
-- [ ] Day 6 - Scroll Animation
+- [x] Day 6 - Scroll Animation
+- [ ] Day 7 - Split Landing Page
