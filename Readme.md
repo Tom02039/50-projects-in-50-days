@@ -8,4 +8,5 @@
 - [x] Day 4 - Hidden Search Widget
 - [x] Day 5 - Blurry Loading
 - [x] Day 6 - Scroll Animation
-- [ ] Day 7 - Split Landing Page
+- [x] Day 7 - Split Landing Page
+- [ ] Day 8 - Form Wave
