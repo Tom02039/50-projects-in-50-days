@@ -9,4 +9,5 @@
 - [x] Day 5 - Blurry Loading
 - [x] Day 6 - Scroll Animation
 - [x] Day 7 - Split Landing Page
-- [ ] Day 8 - Form Wave
+- [x] Day 8 - Form Wave
+- [ ] Day 9 - Sound Board
