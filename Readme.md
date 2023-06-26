@@ -10,4 +10,5 @@
 - [x] Day 6 - Scroll Animation
 - [x] Day 7 - Split Landing Page
 - [x] Day 8 - Form Wave
-- [ ] Day 9 - Sound Board
+- [x] Day 9 - Sound Board
+- [ ] Day 10 - Dad Jokes
