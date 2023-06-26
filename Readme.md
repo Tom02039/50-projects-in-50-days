@@ -11,4 +11,5 @@
 - [x] Day 7 - Split Landing Page
 - [x] Day 8 - Form Wave
 - [x] Day 9 - Sound Board
-- [ ] Day 10 - Dad Jokes
+- [x] Day 10 - Dad Jokes
+- [ ] Day 11 - Event Keycodes
